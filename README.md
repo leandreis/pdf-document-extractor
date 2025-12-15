@@ -56,24 +56,33 @@ before introducing any AI layer, ensuring **accuracy and reliability**.
   "total_ht": 1200.75
 }
 
+
 ## 🔁 Automation flow
 
 PDF → Python extraction → JSON → Make webhook → Monday / CRM
 
+---
+
 ## ▶️ How to run locally
+
+```bash
 python src/main.py
 python src/send_to_make.py
+```
 
+---
 
 ## 🧩 Possible extensions
+
 - VAT & Total TTC extraction
 - Confidence scoring per extracted field
 - AI fallback for complex layouts
 - Batch processing (multiple PDFs)
 - REST API (FastAPI)
 
-##🎯 Typical use cases
+---
+
+## 🎯 Typical use cases
+
 - Finance & cost automation
-- CRM / ERP document ingestion
-- Operations workflows
-- AI & automation projects
+- CRM / ERP document ingest
