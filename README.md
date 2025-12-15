@@ -24,6 +24,7 @@ The output is a clean, structured JSON ready to be consumed by automation tools.
 ## ⚠️ Why this matters (real-world PDFs are messy)
 
 Most PDFs are not clean:
+
 - non-breaking spaces
 - inconsistent labels (e.g. *Total HT*, *Total général net HT*)
 - amounts mixed with layout artifacts
@@ -55,7 +56,9 @@ before introducing any AI layer, ensuring **accuracy and reliability**.
   "dates": ["2024-08-05"],
   "total_ht": 1200.75
 }
+```
 
+---
 
 ## 🔁 Automation flow
 
@@ -85,4 +88,10 @@ python src/send_to_make.py
 ## 🎯 Typical use cases
 
 - Finance & cost automation
-- CRM / ERP document ingest
+- CRM / ERP document ingestion
+- Operations workflows
+- AI & automation projects
+
+---
+
+**Built as a real-world automation case, not a demo script.**
