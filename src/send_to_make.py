@@ -1,7 +1,7 @@
 import json
 import requests
 
-MAKE_WEBHOOK_URL = "https://hook.eu2.make.com/tl7ezgb95k6us61phxnfd64gxepsu9fm"
+from config import MAKE_WEBHOOK_URL
 
 def send_to_make(payload: dict):
     response = requests.post(
