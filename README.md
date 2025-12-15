@@ -102,8 +102,6 @@ Required variables:
 
 ```bash
 export MAKE_WEBHOOK_URL="https://hook.make.com/XXXX"
+```
 
-
-
-```bash
 **Built as a real-world automation case, not a demo script.**
