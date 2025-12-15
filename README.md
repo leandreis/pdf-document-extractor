@@ -94,4 +94,14 @@ python src/send_to_make.py
 
 ---
 
+## 🔐 Configuration
+
+This project uses environment variables for sensitive credentials.
+
+Required variables:
+
+```bash
+export MAKE_WEBHOOK_URL="https://hook.make.com/XXXX"
+
+
 **Built as a real-world automation case, not a demo script.**
